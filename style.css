@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    color: black;
+
+}
+header h1{
+
+}
+header .onglets {
+    margin-top: 6px;
+    margin-left: 150px; 
+}
+header .onglets a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+    border-bottom: 1px solid #000;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    max-height: 100%;
+    width: auto;
+}
