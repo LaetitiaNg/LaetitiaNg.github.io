@@ -33,17 +33,43 @@ header .onglets a{
       margin-bottom: 10px;   
     }
   }
-.photo_lm4{
+@media screen and (min-width:1751px){
+    .espece{
+        margin-left: 10%;
+        margin-right: ; 
+    }
+  }
+.photo_lm1{
+    max-height: 230px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.photo_lm2{
     max-height: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.photo_lm4{
+    max-height: 240px;
     margin-top: 20px;
     margin-left: 20px;
 }
 .photo_lm6{
-    max-height: 250px;
+    max-height: 270px;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .mer{
     display: flex;
     flex-wrap: wrap; 
+}
+.habitat_alimentation{
+    flex: 0 0 50%;
+}
+.sociale{
+    flex: 0 0 60%;
+}
+.reproduction{
+    flex: 0 0 50%;
 }
