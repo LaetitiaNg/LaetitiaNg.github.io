@@ -3,8 +3,6 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     align-items:center;
-    color: black;
-
 }
 
 header .onglets {
@@ -59,6 +57,17 @@ header .onglets a{
     margin-left: 20px;
     margin-right: 20px;
 }
+.photo_lm5{
+    max-height: 200px;
+    margin-right: 5px;
+}
+.photo_lm7{
+    max-height: 200px;
+    margin-right: 5px;
+}
+.photo_lm8{
+    max-height: 200px;
+}
 
 .mer{
     display: flex;
@@ -72,4 +81,7 @@ header .onglets a{
 }
 .reproduction{
     flex: 0 0 50%;
+}
+.galerie_lm{
+    display: flex;
 }
