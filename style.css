@@ -73,13 +73,13 @@ header .onglets a{
     display: flex;
     flex-wrap: wrap; 
 }
-.habitat_alimentation{
+.habitat_alimentation_lm{
     flex: 0 0 50%;
 }
-.sociale{
+.sociale_lm{
     flex: 0 0 60%;
 }
-.reproduction{
+.reproduction_lm{
     flex: 0 0 50%;
 }
 .galerie_lm{
