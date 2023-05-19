@@ -16,7 +16,6 @@ header .onglets a{
     color: black;
     border-bottom: 1px solid #000;
 }
-
 .center {
     display: block;
     margin-left: auto;
@@ -34,9 +33,13 @@ header .onglets a{
 @media screen and (min-width:1751px){
     .espece{
         margin-left: 10%;
-        margin-right: ; 
     }
   }
+
+.mer{
+    display: flex;
+    flex-wrap: wrap; 
+}
 .photo_lm1{
     max-height: 230px;
     margin-top: 25px;
@@ -68,11 +71,6 @@ header .onglets a{
 .photo_lm8{
     max-height: 200px;
 }
-
-.mer{
-    display: flex;
-    flex-wrap: wrap; 
-}
 .habitat_alimentation_lm{
     flex: 0 0 50%;
 }
@@ -84,4 +82,90 @@ header .onglets a{
 }
 .galerie_lm{
     display: flex;
+}
+
+.asie{
+    display: flex;
+    flex-wrap: wrap;  
+}
+.photo_la1{
+    max-height: 245px;
+    margin-top: 25px;
+    margin-left: 150px;
+}
+.photo_la2{
+    max-height: 300px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+.sociale_la{
+    flex: 0 0 50%;
+}
+.photo_la3{
+    max-height: 300px;
+    margin-left: 150px;
+    margin-right: 40px;
+}
+.photo_la4{
+    max-height: 300px;
+}
+
+.europe{
+    display: flex;
+    flex-wrap: wrap;  
+}
+.photo_le3{
+    max-height: 250px;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+.photo_le2{
+    max-height: 350px;
+    margin-right: 40px;
+    margin-top: 80px;
+}
+.habitat_alimentation_le{
+    flex: 0 0 60%;
+}
+.photo_le4{
+    max-height: 280px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.sociale_le{
+    flex: 0 0 50%;
+}
+.photo_le1{
+    max-height: 350px;
+    margin-left: 350px;
+}
+
+.geante{
+    display: flex;
+    flex-wrap: wrap;  
+}
+.photo_lg3{
+    max-height: 250px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.photo_lg1{
+    max-height: 350px;
+    margin-left: 120px;
+    margin-right: 20px;
+}
+.photo_lg5{
+    max-height: 350px;
+}
+.photo_lg4{
+    max-height: 380px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.sociale_lg{
+    flex: 0 0 70%;
+}
+.photo_lg2{
+    max-height: 380px;
+    margin-left: 300px;
 }
